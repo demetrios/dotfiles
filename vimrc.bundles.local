@@ -1,1 +1,4 @@
 " Add MD bundles here
+Bundle 'altercation/vim-colors-solarized'
+Bundle 'thoughtbot/vim-magictags'
+Bundle 'jpo/vim-railscasts-theme'
