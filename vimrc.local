@@ -2,3 +2,7 @@
 set background=dark
 let g:solarized_termtrans=1
 colorscheme solarized
+
+set numberwidth=4
+set scrolloff=10   " show n lines below cursor when scrolling
+set cursorline     " indicate the current line

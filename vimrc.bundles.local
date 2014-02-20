@@ -2,3 +2,5 @@
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'thoughtbot/vim-magictags'
 Bundle 'jpo/vim-railscasts-theme'
+" Bundle 'christoomey/vim-tmux-navigator'
+" see: http://robots.thoughtbot.com/seamlessly-navigate-vim-and-tmux-splits
