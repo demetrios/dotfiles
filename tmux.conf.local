@@ -1,4 +1,6 @@
 set -g mode-mouse on
+
+# start window numbering at 1 (default 0)
 set -g base-index 1
 set -g mouse-resize-pane on
 set -g mouse-select-pane on
@@ -16,3 +18,6 @@ bind - \
   last-window \;\
   swap-pane -s tmux-zoom.0 \;\
   kill-window -t tmux-zoom
+
+# only constrain a window in size if a smaller client is actively looking at it.
+setw -g aggressive-resize on
