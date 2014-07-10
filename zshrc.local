@@ -53,7 +53,7 @@ plugins=(git brew gem mbd2)
 
 source $ZSH/oh-my-zsh.sh
 
-# add /usr/local/bin to $PATH
+# add /usr/local/bin to $PATH # no! this is already in /etc/paths
 export PATH=/usr/local/bin:$PATH
 
 # # Preferred editor for local and remote sessions
