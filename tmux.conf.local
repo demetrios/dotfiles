@@ -19,5 +19,7 @@ bind - \
   swap-pane -s tmux-zoom.0 \;\
   kill-window -t tmux-zoom
 
-# only constrain a window in size if a smaller client is actively looking at it.
-setw -g aggressive-resize on
+## only constrain a window in size if a smaller client is actively looking at it.
+# setw -g aggressive-resize on
+## turning off because incompatible with iTerm2 2.0's want for 'tmux -CC'
+setw -g aggressive-resize off
