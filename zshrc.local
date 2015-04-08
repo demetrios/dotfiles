@@ -71,8 +71,8 @@ source $ZSH/oh-my-zsh.sh
 
 # load RVM
 
-# moved ~/.vagrand.d to Megalos so update VAGRANT_HOME
-VAGRANT_HOME=/Volumes/Megalos/Development/VirtualBox/vagrant_home
+# moved ~/.vagrand.d to Megalos then back to inbound so update VAGRANT_HOME
+VAGRANT_HOME=$HOME/inbound/VirtualBox/vagrant_home
 
 ## from brew info zsh
 #Add the following to your zshrc to access the online help:
