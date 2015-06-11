@@ -1,0 +1,39 @@
+[user]
+  email = mdreg+github@mac.com
+  name = Michael Demetrios
+[core]
+  editor = mate -w
+  excludesfile = /Users/michael/.gitignore_global
+[alias]
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
+  df = diff
+  dc = diff --cached
+  lg = log -p
+  lol = log --graph --decorate --pretty=oneline --abbrev-commit
+  lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+  ls = ls-files
+  # Show files ignored by git:
+  ign = ls-files -o -i --exclude-standard
+  
+  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+  type = cat-file -t
+  dump = cat-file -p
+  logg = log --oneline --decorate --all --graph
+
+  l = log --pretty=colored
+  #  rebase-back = "!f() { git rebase -i HEAD~$1; }; f"
+  ss = stash show -u
+
+[pretty]
+  colored = format:%Cblue%h %Cgreen[%cr] %Creset(%an) %s
+
+[push]
+  default = simple
+[pull]
+  rebase = true
+[rerere]
+  # rebase when you pull instead of default merge commit
+  enabled = true
