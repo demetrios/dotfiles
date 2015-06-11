@@ -1,8 +1,12 @@
 " Add MD bundles here
-Bundle 'altercation/vim-colors-solarized'
+"  Bundle 'altercation/vim-colors-solarized'
 " Bundle 'thoughtbot/vim-magictags'
-Bundle 'jpo/vim-railscasts-theme'
+"" Bundle 'jpo/vim-railscasts-theme'
 " Bundle 'christoomey/vim-tmux-navigator'
 " see: http://robots.thoughtbot.com/seamlessly-navigate-vim-and-tmux-splits
-Bundle 'slim-template/vim-slim.git'
-Bundle 'rking/ag.vim'
+"" Bundle 'slim-template/vim-slim.git'
+"" Bundle 'rking/ag.vim'
+Plug 'altercation/vim-colors-solarized'
+Plug 'chriskempson/vim-tomorrow-theme'
+" Plug 'elixir-lang/vim-elixir'
+Plug 'rking/ag.vim'
