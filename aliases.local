@@ -1,0 +1,56 @@
+## Git Aliases see <http://gitimmersion.com/lab_11.html>
+alias gs="git status -s"
+alias gb="git branch "
+alias gsb="git show-branch"
+alias gc="git commit"
+alias gi="git commit"
+alias gd="git diff"
+alias gdt="git difftool"
+alias go="git checkout "
+alias gk="gitk --all"
+alias gx="gitx --all"
+
+## Thoughtbot aliases
+# Pretty print the path
+alias diff="colordiff"
+
+## MD Aliases (after change reload with $ source ~/.zshrc)
+alias rvp="rvm-prompt"
+alias curvm="curl https://raw.githubusercontent.com/wayneeseguin/rvm/stable/VERSION"
+alias rdbtest="rake db:migrate && rake db:migrate RAILS_ENV=test"
+alias fs="foreman start"
+# Quick way to rebuild the Launch Services database and get rid of duplicates in the Open With submenu
+# may require addt'l $ killall Finder
+alias fixopenwith='/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user'
+# alias ppback="/Volumes/Megalos/Backups/MySQL-backups/powerplay-backup-mysql-db.sh"
+## MongoDB
+alias lmongo="launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mongodb.plist"
+alias lwmongo="launchctl load -w ~/Library/LaunchAgents/homebrew.mxcl.mongodb.plist"
+alias ulmongo="launchctl unload -w ~/Library/LaunchAgents/homebrew.mxcl.mongodb.plist"
+## MySQL
+alias lMY="launchctl load ~/Library/LaunchAgents/com.mysql.mysqld.plist"
+alias lwMY="launchctl load -w ~/Library/LaunchAgents/com.mysql.mysqld.plist"
+alias ulMY="launchctl unload -w ~/Library/LaunchAgents/com.mysql.mysqld.plist"
+## Elasticsearch
+alias lES="launchctl load ~/Library/LaunchAgents/homebrew.mxcl.elasticsearch.plist" # broken?
+alias lwES="launchctl load -w ~/Library/LaunchAgents/homebrew.mxcl.elasticsearch.plist"
+alias ulES="launchctl unload -w ~/Library/LaunchAgents/homebrew.mxcl.elasticsearch.plist"
+## PostgreSQL
+alias lPG="launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist"
+alias lwPG="launchctl load -w ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist"
+alias ulPG="launchctl unload -w ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist"
+alias pgstart='su ladmin -c "pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"'
+alias pgstop='su ladmin -c "pg_ctl stop -D /usr/local/var/postgres"'
+## Redis
+alias lredis="launchctl load ~/Library/LaunchAgents/homebrew.mxcl.redis.plist"
+alias lwredis="launchctl load -w ~/Library/LaunchAgents/homebrew.mxcl.redis.plist"
+alias ulredis="launchctl unload -w ~/Library/LaunchAgents/homebrew.mxcl.redis.plist"
+## Papertrail
+alias ptkin="heroku addons:open --app kinscape-production papertrail"
+
+## End MD Aliases
+
+tman()
+{
+man "${1}" | col -b | open -f -a "TextEdit"
+}
