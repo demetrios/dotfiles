@@ -1,10 +1,9 @@
 " put custom vim configuation here
 set background=dark
+colorscheme tomorrow-night
 " let g:solarized_termtrans=1
 " colorscheme solarized
-colorscheme tomorrow-night
 
-set colorcolumn=80 " display character-limit line
 set scrolloff=10   " show n lines below cursor when scrolling
 set cursorline     " indicate the current line
 set numberwidth=4  " line number column to 4 wide (default 5)
