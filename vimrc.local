@@ -8,3 +8,10 @@ set scrolloff=10   " show n lines below cursor when scrolling
 set cursorline     " indicate the current line
 set numberwidth=4  " line number column to 4 wide (default 5)
 set relativenumber " relative line numbering
+
+set hlsearch       " highlight all search matches
+" turn off highlights with leader-h
+nmap <leader>h :nohlsearch<cr>
+
+set ignorecase     " ignore case on search
+set smartcase      " if a cap is used case will be matched
