@@ -1,4 +1,4 @@
-" Add MD bundles here
+" Add MD bundles here. Install with :PlugInstall
 "  Bundle 'altercation/vim-colors-solarized'
 " Bundle 'thoughtbot/vim-magictags'
 "" Bundle 'jpo/vim-railscasts-theme'
@@ -10,3 +10,4 @@ Plug 'altercation/vim-colors-solarized'
 Plug 'chriskempson/vim-tomorrow-theme'
 " Plug 'elixir-lang/vim-elixir'
 Plug 'rking/ag.vim'
+Plug 'burnettk/vim-angular'
