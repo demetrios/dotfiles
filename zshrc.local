@@ -53,6 +53,10 @@ plugins=(git brew osx gem mbd2)
 
 source $ZSH/oh-my-zsh.sh
 
+# iTerm2 Shell Integration (from: http://iterm2.com/documentation-shell-integration.html)
+
+source ~/.iterm2_shell_integration.zsh
+
 # add /usr/local/bin to $PATH # no! this is already in /etc/paths
 # export PATH=/usr/local/bin:$PATH
 
