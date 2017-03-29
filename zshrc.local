@@ -73,8 +73,6 @@ source ~/.iterm2_shell_integration.zsh
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
-# load RVM
-
 # moved ~/.vagrand.d to Megalos then back to inbound so update VAGRANT_HOME
 VAGRANT_HOME=$HOME/inbound/VirtualBox/vagrant_home
 
@@ -84,6 +82,7 @@ unalias run-help
 autoload run-help
 HELPDIR=/usr/local/share/zsh/helpfiles
 
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-
-# [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+## RVM
+# export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+#
+## [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
