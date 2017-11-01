@@ -18,7 +18,7 @@ alias diff="colordiff"
 alias rvp="rvm-prompt"
 alias curvm="curl https://raw.githubusercontent.com/wayneeseguin/rvm/stable/VERSION"
 alias rdbtest="rake db:migrate && rake db:migrate RAILS_ENV=test"
-alias fs="foreman start"
+alias fs="foreman start -f Procfile.dev"
 # Quick way to rebuild the Launch Services database and get rid of duplicates in the Open With submenu
 # may require addt'l $ killall Finder
 alias fixopenwith='/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user'
