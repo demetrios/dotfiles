@@ -48,6 +48,8 @@ alias ulredis="launchctl unload -w ~/Library/LaunchAgents/homebrew.mxcl.redis.pl
 ## Papertrail
 alias ptkin="heroku addons:open --app kinscape-production papertrail"
 
+## NeoVIM
+alias vim="nvim"
 ## End MD Aliases
 
 tman()
