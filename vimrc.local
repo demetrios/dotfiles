@@ -15,3 +15,6 @@ nmap <leader>h :nohlsearch<cr>
 
 set ignorecase     " ignore case on search
 set smartcase      " if a cap is used case will be matched
+
+" allow mouse control
+set mouse=a
