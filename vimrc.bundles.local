@@ -12,3 +12,5 @@ Plug 'chriskempson/vim-tomorrow-theme'
 Plug 'rking/ag.vim'
 Plug 'burnettk/vim-angular'
 Plug 'rizzatti/dash.vim'
+Plug 'machakann/vim-highlightedyank'
+
