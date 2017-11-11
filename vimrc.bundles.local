@@ -14,4 +14,4 @@ Plug 'burnettk/vim-angular'
 Plug 'rizzatti/dash.vim'
 Plug 'machakann/vim-highlightedyank'
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
-
+Plug 'Xuyuanp/nerdtree-git-plugin', { 'on': 'NERDTreeToggle' }
