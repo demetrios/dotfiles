@@ -34,6 +34,8 @@
   default = simple
 [pull]
   rebase = true
+[heroku]
+  remote = staging
 [rerere]
   # rebase when you pull instead of default merge commit
   enabled = true
